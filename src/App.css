@@ -10,10 +10,15 @@
   align-items: center;
   list-style: none;
   height: 5rem;
+  background-color: #ee204d;
+}
+
+.nav__links a:link,
+.nav__links a:visited {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2rem;
-  background-color: #ee204d;
+  text-decoration: none;
   color: #f7f7f7;
 }
 
@@ -42,7 +47,7 @@
 }
 
 .hero__heading {
-  font-size: 8rem;
+  font-size: 6rem;
   background: -webkit-linear-gradient(right, #0039a6, #1f75fe);
   background-clip: text;
   -webkit-background-clip: text;
