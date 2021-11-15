@@ -5,7 +5,6 @@ function Nav() {
     <nav className="nav">
       <ul className="nav__links">
         <li>
-          {" "}
           <a href="#about">About</a>
         </li>
         <li>

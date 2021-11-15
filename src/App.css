@@ -62,3 +62,11 @@
   -webkit-text-fill-color: transparent;
   z-index: 2;
 }
+
+/* About section */
+
+.about-section {
+  min-height: 100vh;
+}
+
+/* Image Carousel */
