@@ -17,7 +17,7 @@
 .nav__links a:visited {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: clamp(1.4rem, 2rem, 3rem);
+  font-size: 2rem;
   text-decoration: none;
   color: #f7f7f7;
 }
@@ -85,4 +85,30 @@
   line-height: 1.6;
 }
 
-/* Image Carousel */
+/* Projects Section */
+
+.projects-section {
+  max-width: 110rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.projects-section__item {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+.projects-section__text {
+  flex: 0 0 50%;
+}
+
+.projects-section__carousel {
+  flex: 0 0 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .projects-section__item {
+    flex-direction: column;
+  }
+}
