@@ -3,13 +3,13 @@ import ImageCarousel from "./carousel";
 
 function Projects({ title, description, images }) {
   return (
-    <div className="projects-section__item">
-      <div className="projects-section__text">
-        <h3>{title}</h3>
-        <p>{description}</p>
+    <div className="projects-section-item">
+      <div className="projects-section-text">
+        <h3 className="projects-section-text__heading">{title}</h3>
+        <p className="projects-section-text__content">{description}</p>
       </div>
       <ImageCarousel
-        className="projects-section__carousel"
+        className="projects-section-carousel"
         images={images}
         title={title}
       />

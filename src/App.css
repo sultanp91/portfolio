@@ -95,14 +95,24 @@
   padding: 8rem 0;
 }
 
-.projects-section__item {
+.projects-section-item {
   display: flex;
   gap: 3rem;
   margin-bottom: 6rem;
 }
 
-.projects-section__text {
+.projects-section-text {
   flex: 0 0 50%;
+}
+
+.projects-section-text__heading {
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.projects-section-text__content {
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 .projects-section__carousel {
@@ -110,7 +120,10 @@
 }
 
 @media screen and (max-width: 800px) {
-  .projects-section__item {
+  .projects-section-item {
     flex-direction: column;
+  }
+  .projects-section-text__heading {
+    text-align: center;
   }
 }
