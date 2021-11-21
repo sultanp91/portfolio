@@ -11,6 +11,8 @@ function ProjectsSection() {
           title={data.title}
           description={data.description}
           images={data.images}
+          repo={data.repo}
+          live={data.live}
         />
       ))}
     </div>

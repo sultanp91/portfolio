@@ -5,7 +5,7 @@ function About() {
     <section className="about-section" id="about">
       <h2 className="about-section__heading text-gradient">About Me</h2>
       <p className="about-section__content">
-        I am a front end developer from London. I enjoy building web apps using
+        I'm a front end developer from London. I enjoy building web pages using
         JavaScript and React. I am confident in writing semantic HTML and
         styling pages using CSS or SASS. I am proficient in using Git and GitHub
         for version control and know my way around the command line. I also have

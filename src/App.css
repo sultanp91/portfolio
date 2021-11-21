@@ -66,6 +66,9 @@
 
 .about-section {
   padding-bottom: 8rem;
+  max-width: 110rem;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .about-section__heading {
@@ -75,10 +78,8 @@
 }
 
 .about-section__content {
-  margin: 0 auto;
-  width: 80%;
-  font-size: 2.4rem;
-  line-height: 1.6;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 /* Projects Section */
@@ -117,6 +118,36 @@
 
 .projects-section__carousel {
   flex: 0 0 50%;
+}
+
+.projects-section-text__button {
+  margin-top: 3rem;
+  padding: 1.2rem 2.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.projects-section-text__button:hover {
+  transform: translateY(-2px);
+}
+
+.projects-section-text__button:active {
+  transform: translateY(2px);
+}
+
+.projects-section-text__button-1 {
+  margin-right: 2rem;
+  background-color: #1f75fe;
+  color: #fff;
+  border: none;
+}
+.projects-section-text__button-2 {
+  border: solid 3px #1f75fe;
+  background-color: transparent;
+  color: #1f75fe;
 }
 
 @media screen and (max-width: 800px) {
