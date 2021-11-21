@@ -1,3 +1,11 @@
+/* Text gradient  */
+.text-gradient {
+  background: -webkit-linear-gradient(right, #0039a6, #1f75fe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Nav */
 
 .nav {
@@ -47,34 +55,22 @@
 
 .hero__heading {
   font-size: clamp(6vw, 8rem, 12vw);
-  background: -webkit-linear-gradient(right, #0039a6, #1f75fe);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   z-index: 2;
 }
 .hero__sub-heading {
   font-size: clamp(3vw, 4rem, 6vw);
-  background: -webkit-linear-gradient(right, #0039a6, #1f75fe);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   z-index: 2;
 }
 
 /* About section */
 
 .about-section {
-  min-height: 100vh;
+  padding-bottom: 8rem;
 }
 
 .about-section__heading {
   font-size: 5rem;
   text-align: center;
-  background: -webkit-linear-gradient(right, #0039a6, #1f75fe);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   padding: 4rem 0;
 }
 
@@ -91,6 +87,12 @@
   max-width: 110rem;
   width: 95%;
   margin: 0 auto;
+}
+
+.projects-section__heading {
+  font-size: 5rem;
+  text-align: center;
+  padding: 8rem 0;
 }
 
 .projects-section__item {

@@ -10,7 +10,7 @@ function Hero() {
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.3 }}
-        className="hero__heading"
+        className="hero__heading text-gradient"
       >
         Sultan Parbes
       </motion.h1>
@@ -18,7 +18,7 @@ function Hero() {
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
-        className="hero__sub-heading"
+        className="hero__sub-heading text-gradient"
       >
         Front End Developer
       </motion.h2>
