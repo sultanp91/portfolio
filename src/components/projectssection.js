@@ -4,7 +4,7 @@ import { projectData } from "./projectdata";
 
 function ProjectsSection() {
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects">
       <h2 className="projects-section__heading text-gradient">Projects</h2>
       {projectData.map((data) => (
         <Projects

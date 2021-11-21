@@ -8,10 +8,6 @@
 
 /* Nav */
 
-.nav {
-  background-color: #f7f7f7;
-}
-
 .nav__links {
   display: flex;
   justify-content: center;
@@ -31,7 +27,12 @@
 }
 
 .nav__links li:not(:first-child) {
-  margin-left: 15vw;
+  margin-left: clamp(5vw, 15vw, 20vw);
+}
+@media screen and (max-width: 600px) {
+  .nav__links {
+    display: none;
+  }
 }
 
 /* Hero */
@@ -54,11 +55,11 @@
 }
 
 .hero__heading {
-  font-size: clamp(6vw, 8rem, 12vw);
+  font-size: clamp(5vw, 8rem, 12vw);
   z-index: 2;
 }
 .hero__sub-heading {
-  font-size: clamp(3vw, 4rem, 6vw);
+  font-size: clamp(2vw, 4rem, 6vw);
   z-index: 2;
 }
 
@@ -99,7 +100,7 @@
 .projects-section-item {
   display: flex;
   gap: 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 .projects-section-text {
