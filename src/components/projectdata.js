@@ -53,14 +53,16 @@ export const projectData = [
   },
   {
     title: "The Next Web Clone",
-    description: "A HTML/CSS clone of The Next Web homepage....",
+    description:
+      "A HTML/CSS clone of The Next Web homepage. The aim of this p[roject was to practice creating responsive layouts which scale content and layout to best fit the user device. TNW has different layouts which",
     images: [tnw1, tnw2, tnw3],
     repo: "https://github.com/sultanp91/the-next-web-clone",
     live: "https://sultanp91.github.io/the-next-web-clone/",
   },
   {
     title: "New Scientist Page Clone",
-    description: "A clone of a New Scientist article.....",
+    description:
+      "A clone of a New Scientist articcle page. In this project the goal was to practice positioning methods. In this project I mainly used grid and flexbox to position elements.",
     images: [ns1, ns2],
     repo: "https://github.com/sultanp91/new-scientist-article",
     live: "https://sultanp91.github.io/new-scientist-article/",
