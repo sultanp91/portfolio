@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section className="about-section" id="about">
-      <h2 className="about-section__heading text-gradient">About Me</h2>
+      <h2 className="about-section__heading heading-text-gradient">About Me</h2>
       <p className="about-section__content">
         I'm a front end developer from London. I enjoy building web pages using
         JavaScript and React. I am confident in writing semantic HTML and
