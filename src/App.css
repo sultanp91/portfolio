@@ -118,6 +118,24 @@
   color: inherit;
 }
 
+.projects-section-text__technologies {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.projects-section-text__technologies span {
+  margin-right: 1rem;
+}
+
+.projects-section-text__technologies svg:not(:last-of-type) {
+  margin-right: 0.5rem;
+}
+
+.projects-section-text__svg {
+  height: 3.5rem;
+}
+
 .projects-section__carousel {
   flex: 0 0 50%;
 }

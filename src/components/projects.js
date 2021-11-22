@@ -8,7 +8,10 @@ function Projects({ title, description, images, repo, live, tech }) {
         <h3 className="projects-section-text__heading">{title}</h3>
         <p className="projects-section-text__content">{description}</p>
         <div className="projects-section-text__technologies">
-          <span>Languages: </span> {tech.map((t) => t())}
+          <span className="projects-section-text__content">
+            <strong>Languages: </strong>
+          </span>
+          {tech.map((t) => t())}
         </div>
         <a target="_blank" rel="noreferrer" href={repo}>
           <button
