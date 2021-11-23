@@ -9,7 +9,7 @@ function Projects({ title, description, images, repo, live, tech }) {
         <p className="projects-section-text__content">{description}</p>
         <div className="projects-section-text__technologies">
           <span className="projects-section-text__content">
-            <strong>Languages: </strong>
+            <strong>Tech: </strong>
           </span>
           {tech.map((t) => t())}
         </div>

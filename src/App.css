@@ -51,12 +51,13 @@
 .hero__svg {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   z-index: 1;
 }
 
 .hero__heading {
+  margin-top: -5%;
   font-size: clamp(5vw, 8rem, 12vw);
   z-index: 2;
 }
@@ -81,6 +82,11 @@
 .about-section__content {
   font-size: 1.6rem;
   line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.about-section__content:last-of-type {
+  margin-top: 1rem;
 }
 
 /* Projects Section */

@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <h2 className="contact-section__heading heading-text-gradient">
         Contact
       </h2>
