@@ -31,14 +31,6 @@
 .nav__links li:not(:first-child) {
   margin-left: clamp(5vw, 15vw, 20vw);
 }
-@media screen and (max-width: 600px) {
-  .nav__links {
-    display: none;
-  }
-  .hero__svg {
-    display: none;
-  }
-}
 
 /* Hero */
 
@@ -210,4 +202,18 @@
 .contact-section-svg {
   width: 100%;
   fill: #1f75fe;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .nav__links {
+    display: none;
+  }
+  .hero__svg {
+    display: none;
+  }
+  .hero {
+    min-height: 100vh;
+  }
 }

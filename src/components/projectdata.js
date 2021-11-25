@@ -121,7 +121,7 @@ export const projectData = [
   {
     title: "Battleships",
     description:
-      "A recreation of the classic board game - built with React and JavaScript using test driven development. Each component of game logic - ship, gameboard, player - was tested using Jest ensuring game logic is working correctly. Players can place ships horizontally or vertically on the board. Once all ships are placed, players will attack the opponent board until all ships have been sunk.",
+      "A recreation of the classic board game - built with React using Jest for test driven development. Each component of game logic - ship, gameboard, player - was tested ensuring game logic is functioning correctly. Players are able to place ships horizontally or vertically on the board. Once all ships are placed, players attack the opponent board until all ships have been sunk.",
     images: [battleships1, battleships2, battleships3],
     repo: "https://github.com/sultanp91/battleship",
     live: "https://sultanp91.github.io/battleship/",
@@ -131,7 +131,7 @@ export const projectData = [
   {
     title: "Next Gen Store",
     description:
-      "Front end shopping cart built with React functional components and React hooks. I used React Router to display content across mutiple pages, I also used Context and useReducer to access and manipulate state across multiple component layers without excessive prop drilling, enabling predictable and bug-free changes to application state.",
+      "Front end only shopping cart built with React hooks. React Router was utilised to route through mutiple shop pages. Context and the useReducer hook were used to implement a global state enabling predictable and bug-free changes to application state without excessive prop drilling.",
     images: [nextgenstore1, nextgenstore2, nextgenstore3],
     repo: "https://github.com/sultanp91/shopping-cart",
     live: "https://sultanp91.github.io/shopping-cart/",
@@ -140,7 +140,7 @@ export const projectData = [
   {
     title: "To Do List",
     description:
-      "To Do List made with vanilla JavaScript. Users are are able to create projects and then create tasks within them. Tasks can be edited and deleted. Users are also able to find tasks due on that date and also sort through tasks by priority. Dates are formatted using the date-fns package. This was one of the most difficult projects I've done, it was the first time",
+      "To Do List made with vanilla JavaScript. Users are are able to create project containers and then todo tasks within them. Tasks can be edited and deleted directly on the page. Users are also able to find tasks due on that date and also filter tasks by priority.",
     images: [todolist1, todolist2, todolist3],
     repo: "https://github.com/sultanp91/to-do-list",
     live: "https://sultanp91.github.io/to-do-list/",
@@ -166,7 +166,7 @@ export const projectData = [
     tech: [htmlSVG, cssSVG],
   },
   {
-    title: "New Scientist Page Clone",
+    title: "New Scientist Article Page Clone",
     description:
       "A clone of a New Scientist articcle page. In this project the goal was to practice positioning methods. In this project I mainly used grid and flexbox to position elements.",
     images: [ns1, ns2],
