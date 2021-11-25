@@ -121,7 +121,7 @@ export const projectData = [
   {
     title: "Battleships",
     description:
-      "A recreation of the classic board game - built with React using Jest for test driven development. Each component of game logic - ship, gameboard, player - was tested ensuring game logic is functioning correctly. Players are able to place ships horizontally or vertically on the board. Once all ships are placed, players attack the opponent board until all ships have been sunk.",
+      "A recreation of the classic board game - built with React and using Jest for test driven development. Each component of game logic - ship, gameboard, player - was tested ensuring game logic is functioning correctly. Players first place ships on their board - either horizontally or vertically. Once all ships are placed, players then need to attack the opponent board until all ships have been sunk.",
     images: [battleships1, battleships2, battleships3],
     repo: "https://github.com/sultanp91/battleship",
     live: "https://sultanp91.github.io/battleship/",
@@ -140,7 +140,7 @@ export const projectData = [
   {
     title: "To Do List",
     description:
-      "To Do List made with vanilla JavaScript. Users are are able to create project containers and then todo tasks within them. Tasks can be edited and deleted directly on the page. Users are also able to find tasks due on that date and also filter tasks by priority.",
+      "To Do List made with vanilla JavaScript. Users are are able to create project containers and then todo tasks within them. Tasks can be edited and deleted directly on the page. Users are also able to find tasks due on that date and filter tasks by priority.",
     images: [todolist1, todolist2, todolist3],
     repo: "https://github.com/sultanp91/to-do-list",
     live: "https://sultanp91.github.io/to-do-list/",
@@ -159,7 +159,7 @@ export const projectData = [
   {
     title: "The Next Web Clone",
     description:
-      "A HTML/CSS clone of The Next Web homepage. The aim of this p[roject was to practice creating responsive layouts which scale content and layout to best fit the user device. TNW homepage has ",
+      "A HTML/CSS clone of The Next Web homepage. The aim of this project was to practice creating responsive layouts which scale content and layout to best fit the user device.",
     images: [tnw1, tnw2, tnw3],
     repo: "https://github.com/sultanp91/the-next-web-clone",
     live: "https://sultanp91.github.io/the-next-web-clone/",
@@ -168,7 +168,7 @@ export const projectData = [
   {
     title: "New Scientist Article Page Clone",
     description:
-      "A clone of a New Scientist articcle page. In this project the goal was to practice positioning methods. In this project I mainly used grid and flexbox to position elements.",
+      "A clone of a New Scientist article page. In this project the goal was to practice positioning methods. In this project I mainly used grid and flexbox to position elements.",
     images: [ns1, ns2],
     repo: "https://github.com/sultanp91/new-scientist-article",
     live: "https://sultanp91.github.io/new-scientist-article/",
