@@ -35,6 +35,9 @@
   .nav__links {
     display: none;
   }
+  .hero__svg {
+    display: none;
+  }
 }
 
 /* Hero */
