@@ -170,16 +170,6 @@
   color: #1f75fe;
 }
 
-@media screen and (max-width: 800px) {
-  .projects-section-item {
-    flex-direction: column;
-    margin-bottom: 5rem;
-  }
-  .projects-section-text__heading {
-    text-align: center;
-  }
-}
-
 .contact-section__heading {
   padding-bottom: 5rem;
 }
@@ -205,6 +195,16 @@
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 800px) {
+  .projects-section-item {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .projects-section-text__heading {
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .nav__links {

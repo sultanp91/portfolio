@@ -1,6 +1,7 @@
 import battleships1 from "../images/battleships1.png";
 import battleships2 from "../images/battleships2.png";
 import battleships3 from "../images/battleships3.png";
+import battleships4 from "../images/battleships4.png";
 import nextgenstore1 from "../images/nextgenstore1.png";
 import nextgenstore2 from "../images/nextgenstore2.png";
 import nextgenstore3 from "../images/nextgenstore3.png";
@@ -122,7 +123,7 @@ export const projectData = [
     title: "Battleships",
     description:
       "A recreation of the classic board game - built with React and using Jest for test driven development. Each component of game logic - ship, gameboard, player - was tested ensuring game logic is functioning correctly. Players first place ships on their board - either horizontally or vertically. Once all ships are placed, players then need to attack the opponent board until all ships have been sunk.",
-    images: [battleships1, battleships2, battleships3],
+    images: [battleships1, battleships2, battleships3, battleships4],
     repo: "https://github.com/sultanp91/battleship",
     live: "https://sultanp91.github.io/battleship/",
     tech: [reactSVG, jestSVG, cssSVG],
