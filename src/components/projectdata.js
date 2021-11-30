@@ -16,6 +16,7 @@ import tnw2 from "../images/tnw2.png";
 import tnw3 from "../images/tnw3.png";
 import ns1 from "../images/ns1.png";
 import ns2 from "../images/ns2.png";
+
 import React from "react";
 
 function htmlSVG() {
