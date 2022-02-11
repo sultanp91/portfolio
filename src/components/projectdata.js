@@ -258,7 +258,7 @@ export const projectData = [
   {
     title: 'Inventory App',
     description:
-      'Full stack inventory management application built using the express framework with CRUD capabilities. Users are able to create and update categories and products. File upload using the Multer API. Sanitization and validation of form inputs.',
+      'Full stack inventory management application built with express with a noSQL database with CRUD features. Users are able to create and update both categories and products. File upload is also possible using the Multer API. All user inputs are sanitized and validated using express-validator.',
     images: [ia1, ia2, ia3, ia4],
     repo: 'https://github.com/sultanp91/inventory-app',
     live: 'https://floating-caverns-88055.herokuapp.com',
