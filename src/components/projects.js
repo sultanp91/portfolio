@@ -1,5 +1,5 @@
-import React from "react";
-import ImageCarousel from "./carousel";
+import React from 'react';
+import ImageCarousel from './carousel';
 
 function Projects({ title, description, images, repo, live, tech }) {
   return (
@@ -30,11 +30,7 @@ function Projects({ title, description, images, repo, live, tech }) {
           </button>
         </a>
       </div>
-      <ImageCarousel
-        className="projects-section-carousel"
-        images={images}
-        title={title}
-      />
+      <ImageCarousel className="projects-section-carousel" images={images} />
     </div>
   );
 }
