@@ -1,6 +1,6 @@
-import React from "react";
-import Wave from "./wave";
-import { motion } from "framer-motion";
+import React from 'react';
+import Wave from './wave';
+import { motion } from 'framer-motion';
 
 function Hero() {
   return (
@@ -20,7 +20,7 @@ function Hero() {
         transition={{ duration: 0.8, delay: 0.6 }}
         className="hero__sub-heading heading-text-gradient"
       >
-        Front End Developer
+        Full Stack Developer
       </motion.h2>
     </div>
   );
